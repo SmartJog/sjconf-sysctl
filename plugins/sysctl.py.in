@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+
+import sjconf
+
+class Plugin(sjconf.Plugin):
+
+    VERSION = '@PACKAGE_VERSION@'
+
+    def conf_files_path(self):
+        return (self.sjconf.etc_dir + '/sysctl.conf',)
+
+    def file_content(self, file_path):
+        file_content = ''
+        for k,v in self.conf[self.name()].items():
+            file_content += k + "= " + v + "\n"
+        return file_content

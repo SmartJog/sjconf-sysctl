@@ -1,0 +1,20 @@
+#!/bin/sh
+set -e
+
+#DEBHELPER#
+
+PLUGINS="sysctl"
+
+for plugin in $PLUGINS
+do
+	if ! sjconf --list-plugins | grep "^Plugin $plugin$" > /dev/null
+	then
+		sjconf --install-conf --link /etc/sjconf-sysctl/confs/$plugin.conf
+		if [ -e /etc/sjconf-sysctl/templates/$plugin ]
+		then
+			sjconf --install-template --link /etc/sjconf-sysctl/templates/$plugin
+		fi
+		sjconf --install-plugin --link /usr/share/sjconf-sysctl/plugins/$plugin.py
+		sjconf --enable-plugin $plugin
+	fi
+done

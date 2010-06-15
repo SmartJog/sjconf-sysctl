@@ -1,0 +1,2 @@
+plugins/*.py usr/share/sjconf-sysctl/plugins
+confs/sysctl.conf etc/sjconf-sysctl/confs
