@@ -1,4 +1,4 @@
-sjconf-sysctl (0.1.0~dev-1) unstable; urgency=low
+sjconf-sysctl (0.1.0-1) unstable; urgency=low
 
   [ Mathieu Dupuy ]
   * Initial release, closes: #3265.
@@ -6,4 +6,4 @@ sjconf-sysctl (0.1.0~dev-1) unstable; urgency=low
   [ Gilles Dartiguelongue ]
   * Add myself to Uploaders.
 
- -- Gilles Dartiguelongue <gilles.dartiguelongue@smartjog.com>  Thu, 01 Jul 2010 18:22:06 +0200
+ -- Gilles Dartiguelongue <gilles.dartiguelongue@smartjog.com>  Thu, 01 Jul 2010 18:23:10 +0200
