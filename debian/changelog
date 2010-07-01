@@ -1,5 +1,9 @@
 sjconf-sysctl (0.1.0~dev-1) unstable; urgency=low
 
+  [ Mathieu Dupuy ]
   * Initial release, closes: #3265.
 
- -- Mathieu Dupuy <mathieu.dupuy@smartjog.com>  Tue, 15 Jun 2010 12:12:38 +0200
+  [ Gilles Dartiguelongue ]
+  * Add myself to Uploaders.
+
+ -- Gilles Dartiguelongue <gilles.dartiguelongue@smartjog.com>  Thu, 01 Jul 2010 18:22:06 +0200
