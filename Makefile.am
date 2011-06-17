@@ -2,4 +2,6 @@ SUBDIRS = doc
 
 SJCONF_PLUGINS = sysctl
 
+EXTRA_DIST = README.rst
+
 @AM_SJCONF@
