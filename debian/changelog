@@ -1,9 +1,9 @@
-sjconf-sysctl (0.1.1~dev-1) unstable; urgency=low
+sjconf-sysctl (0.1.1-1) unstable; urgency=low
 
   * New upstream release.
   * Simplify and modernize the packaging
 
- -- Gilles Dartiguelongue <gilles.dartiguelongue@smartjog.com>  Fri, 17 Jun 2011 11:40:30 +0200
+ -- Julien Mori <julien.mori@arkena.com>  Fri, 04 Mar 2016 10:36:09 +0100
 
 sjconf-sysctl (0.1.0-1) unstable; urgency=low
 
