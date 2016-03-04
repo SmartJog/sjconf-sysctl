@@ -11,9 +11,9 @@ Standards-Version: 3.9.6
 
 Package: sjconf-sysctl
 Architecture: all
+Pre-Depends: sjconf1 (>= 1.13.0)
 Depends: ${misc:Depends},
-         ${python:Depends},
-         sjconf1 (>= 1.3.3)
+         ${python:Depends}
 Description: sjconf plugin for sysctl
  This package provides a plugin for managing sysctl configuration using sjconf
 
