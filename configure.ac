@@ -1,5 +1,5 @@
 dnl Process this file with autoconf to produce a configure script.
-AC_INIT(sjconf-sysctl, 0.1.2~dev)
+AC_INIT(sjconf-sysctl, 0.2.0)
 
 AC_PREREQ(2.67)
 

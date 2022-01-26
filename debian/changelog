@@ -1,8 +1,8 @@
-sjconf-sysctl (0.1.2~dev-1) UNRELEASED; urgency=medium
+sjconf-sysctl (0.2.0-1) unstable; urgency=medium
 
   * New upstream version
 
- -- Nicolas Delvaux <nicolas.delvaux@cji.paris>  Wed, 26 Jan 2022 16:24:00 +0100
+ -- Nicolas Delvaux <nicolas.delvaux@cji.paris>  Wed, 26 Jan 2022 16:35:15 +0100
 
 sjconf-sysctl (0.1.1-1) unstable; urgency=low
 

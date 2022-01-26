@@ -1,4 +1,4 @@
-Version 0.1.2~dev
+Version 0.2.0 Released on 2022/01/26
 
 	* Format the code with Black
 	* Align configure.ac with other projects
