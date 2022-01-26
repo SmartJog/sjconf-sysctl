@@ -1,19 +1,18 @@
 Source: sjconf-sysctl
-Section: misc
+Section: admin
 Priority: optional
-Maintainer: Nicolas Delvaux <nicolas.delvaux@arkena.com>
-Uploaders: Julien Mori <julien.mori@arkena.com>
-Build-Depends: debhelper (>= 8),
+Maintainer: Nicolas Delvaux <nicolas.delvaux@cji.paris>
+Build-Depends: debhelper (>= 9),
+               dh-python,
                txt2tags,
-               python-all
-X-Python-Version: >= 2.6
+               python3-all
 Standards-Version: 3.9.6
 
 Package: sjconf-sysctl
 Architecture: all
 Pre-Depends: sjconf1 (>= 1.13.0)
 Depends: ${misc:Depends},
-         ${python:Depends}
+         ${python3:Depends}
 Description: sjconf plugin for sysctl
  This package provides a plugin for managing sysctl configuration using sjconf
 
